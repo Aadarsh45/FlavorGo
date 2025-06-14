@@ -9,7 +9,7 @@ FlavorGo is an Android application designed to enhance the way users discover an
 
 ## 📌 Overview
 
-FlavorGo brings together cutting-edge mobile development and AI to identify dishes, suggest personalized food options, and streamline the food ordering experience. From detecting your meal through a camera to managing past orders and nearby deliveries — FlavorGo is your complete food guide.
+FlavorGo brings together cutting-edge mobile development and AI to identify dishes, suggest food options, and streamline the food ordering experience. From detecting your meal through a camera to managing past orders and nearby deliveries — FlavorGo is your complete food guide.
 
 ---
 
