@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vegetarian_green">#4CAF50</color>
+    <color name="non_vegetarian_red">#F44336</color>
+    <color name="available_green">#4CAF50</color>
+    <color name="sold_out_red">#F44336</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="cardBackgroundColor">#F5F5F5</color> <!-- Light gray -->
+    <color name="cardStartGradientColor">#E0E0E0</color> <!-- Light gray -->
+    <color name="cardEndGradientColor">#FFFFFF</color> <!-- White -->
+    <color name="cardStrokeColor">#CCCCCC</color>
+    <color name="not_available_red">#F44336</color>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC6</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="gray">#808080</color>
+
+    <!-- Example custom colors-->
+    <color name="light_blue">#ADD8E6</color>
+    <color name="dark_green">#006400</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="orange">#FFA500</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="teal">#008080</color>
+    <color name="brown">#A52A2A</color>
+    <color name="indigo">#4B0082</color>
+    <color name="lime">#00FF00</color>
+    <color name="status_pending">#FFC107</color>
+    <color name="status_shipped">#2196F3</color>
+    <color name="status_delivered">#4CAF50</color>
+    <color name="status_cancelled">#F44336</color>
+    <color name="card_stroke">#1F000000</color>
+    <color name="background_gray">#FAFAFA</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+
+    <!-- Other Common Colors -->
+    <!-- <color name="white">#FFFFFF</color> -->
+
+    <!-- <color name="black">#000000</color> -->
+</resources>

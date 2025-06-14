@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Plate outline -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M12,12m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- Food representation -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M10,10L14,10L14,14L10,14z" />
+
+    <!-- Camera position guide -->
+    <path
+        android:strokeColor="#2196F3"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M12,2L12,4M22,12L20,12M12,22L12,20M2,12L4,12" />
+
+    <!-- Camera icon -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M12,5m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0" />
+
+</vector>

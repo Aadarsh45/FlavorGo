@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <string name="bearer_token">Bearer da78caaee64772a7bcb864fdade2bd1cf7f5f690</string>-->
+<!--    <string name="bEARER">Bearer da78caaee64772a7bcb864fdade2bd1cf7f5f690</string>-->
+
+    <string name="bearer_token">Bearer 3590841f5a94a64dca953c40ea465e197f8738f0</string>
+    <string name="bEARER">Bearer 3590841f5a94a64dca953c40ea465e197f8738f0</string>
+</resources>

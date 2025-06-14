@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/ivFoodImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Food Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@id/ivFoodImage"
+        app:layout_constraintTop_toTopOf="@id/ivFoodImage"
+        app:layout_constraintEnd_toStartOf="@id/ivVegIcon"
+        app:layout_constraintHorizontal_chainStyle="spread_inside" />
+
+    <ImageView
+        android:id="@+id/ivVegIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:contentDescription="Veg icon"
+        app:layout_constraintTop_toTopOf="@id/tvFoodName"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFoodCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="12sp"
+        android:textColor="#666"
+        app:layout_constraintStart_toStartOf="@id/tvFoodName"
+        app:layout_constraintTop_toBottomOf="@id/tvFoodName"
+        app:layout_constraintEnd_toEndOf="@id/tvFoodName" />
+
+    <TextView
+        android:id="@+id/tvFoodDesc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Description here..."
+        android:textSize="13sp"
+        android:textColor="#555"
+        android:maxLines="2"
+        app:layout_constraintTop_toBottomOf="@id/tvFoodCategory"
+        app:layout_constraintStart_toStartOf="@id/tvFoodName"
+        app:layout_constraintEnd_toEndOf="@id/tvFoodName" />
+
+    <TextView
+        android:id="@+id/tvFoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹0.00"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tvFoodDesc"
+        app:layout_constraintStart_toStartOf="@id/tvFoodDesc" />
+
+    <TextView
+        android:id="@+id/tvAvailability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"
+        app:layout_constraintTop_toTopOf="@id/tvFoodPrice"
+        app:layout_constraintEnd_toEndOf="@id/tvFoodName" />
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Add"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAvailability" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvQuantity"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="0"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/btnAddToCart"-->
+<!--        app:layout_constraintEnd_toStartOf="@id/btnAddToCart"-->
+<!--        app:layout_constraintTop_toTopOf="@id/btnAddToCart" />-->
+
+    <Button
+        android:id="@+id/btnDecrease"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/btnAddToCart"
+
+        app:layout_constraintTop_toTopOf="@id/btnAddToCart"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnIncrease"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/btnAddToCart"
+
+        app:layout_constraintTop_toTopOf="@id/btnAddToCart"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
