@@ -1,7 +1,6 @@
 
 # FlavorGo
-
-**AI-powered food recognition and personalized food recommendation app**  
+ 
 
 FlavorGo is an Android application designed to enhance the way users discover and enjoy food. It combines real-time food recognition, intelligent recommendations, and seamless restaurant interaction, offering a smart dining companion right in your pocket.
 
